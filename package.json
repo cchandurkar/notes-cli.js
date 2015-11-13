@@ -1,0 +1,30 @@
+{
+  "name": "notes-cli.js",
+  "version": "0.0.1",
+  "description": "command line notes taking tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cchandurkar/notes-cli.js.git"
+  },
+  "keywords": [
+    "notes",
+    "cli",
+    "notepad"
+  ],
+  "author": "Chaitanya Chandurkar <cchandurkar@gmail.com> (http://cchandurkar.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cchandurkar/notes-cli.js/issues"
+  },
+  "dependencies": {
+    "grunt": "~0.4.5"
+  },
+ "preferGlobal": "true",
+  "bin": {
+    "notes" : "src/notes.js"
+  }
+}
